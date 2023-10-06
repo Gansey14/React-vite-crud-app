@@ -36,7 +36,7 @@ nav {
 @media (min-width: 600px) {
     nav {
         padding: 1em 2em;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
 }
 
@@ -49,7 +49,8 @@ nav a {
     text-decoration: none;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    border: 2px solid var(--green); /* Use the --green variable */
+    border: 2px solid var(--green);
+    /* Use the --green variable */
     font-weight: 500;
     font-size: 1.2em;
 }
@@ -125,7 +126,7 @@ h3 {
     }
 }
 
-.grid > article {
+.grid>article {
     box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
     padding: 1.5em;
     background-color: var(--white);
@@ -134,15 +135,15 @@ h3 {
     cursor: pointer;
 }
 
-.grid > article ::first-letter {
+.grid>article ::first-letter {
     text-transform: uppercase;
 }
 
-.grid > article:hover {
+.grid>article:hover {
     box-shadow: 0 8px 16px 0 var(--green);
 }
 
-.grid > article img {
+.grid>article img {
     width: 100%;
     height: 200px;
     object-fit: cover;
